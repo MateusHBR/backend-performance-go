@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   banco_dos_amigos:
-    container_name: banco_dos_amigos_db
+    container_name: banco_dos_amigos_db_go
     image: postgres:12.2-alpine
     restart: always
     env_file:
